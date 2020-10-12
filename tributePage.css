@@ -1,0 +1,80 @@
+#Div,#firstDiv,#secDiv,#thirdDiv{
+	margin-left: 30px;
+	margin-right: 50px;
+}
+
+#mainHeading{
+	margin-left: 30px;
+	font-weight: lighter;
+}
+
+#mainPicture{
+	float:right;
+	height: 150px;
+	width: 150px;
+	border: 1px solid black;
+	margin-right: -20px;
+}
+
+#about{
+	font-size: 18px;
+    /*margin-left: 30px;*/
+    text-indent:35px;
+}
+
+#firstDiv{
+    background-color: #F4F4F4;
+}
+
+#secDiv{
+	background-color: #F0FFF0;
+}
+
+#thirdDiv{
+	background-color: #E0FFFF;
+}
+
+#fourthDiv{
+	margin-left: 30px;
+	margin-right: 50px;
+	background-color:  #FFFFE0;
+}
+
+#l1{
+	font-size: 18px;
+}
+
+#spanId{
+	font-weight: bold;
+}
+
+#anchorId{
+	text-decoration: none;
+	color: #228B22;
+}
+
+#youtubeId{
+	text-decoration: none;
+	color: red;
+}
+
+#bookId{
+	text-decoration: none;
+	color:blue;
+}
+
+#unorderedList{
+	list-style-type: circle;
+	font-size: 18px;
+}
+
+#para{
+	text-indent: 35px;
+	font-size: 18px;
+}
+
+#orderedListId{
+	list-style-type: decimal;
+	font-size: 18px;
+}
+

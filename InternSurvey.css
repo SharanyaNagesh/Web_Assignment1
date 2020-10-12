@@ -1,0 +1,11 @@
+#backimage{
+	 margin-left:50px;
+	 margin-right:50px;
+     background-color:#FFEBCD;
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+
+#center{
+	text-align: center;
+}

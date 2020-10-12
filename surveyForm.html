@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Internship Details Survey form</title>
+	<link rel="stylesheet" href="InternSurvey.css">
+</head>
+<body>
+	
+	<h2 id="center">Internship Survey</h2>
+	<h4 id="center">Please enter the details</h4>
+	<div id="backimage">
+	<form method="post">
+        <label for="Fname">First Name:&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;&emsp;&emsp;<input type="text" name="Fname" required="">
+		</label><br><br>
+
+		<label for="Lname">Last Name:&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;&emsp;&emsp;<input type="text" name="Lname" required="">
+		</label><br><br>
+
+		<label for="USN">USN:&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<input type="text" name="USN" maxlength="10" required="">
+		</label><br><br>
+
+        <label for="email">E-mail:&nbsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<input type="email" id="email" name="email">
+        </label><br><br>
+
+        <label for="phno">Phone Number:&emsp;&emsp;&emsp;&emsp;<input type="number" name="phno" maxlength="10">
+		</label><br><br>
+		
+		<label for="gender"> Gender:&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</label>
+		<input type="radio" name="male" value="male"><label for="male">Male</label>
+		<input type="radio" name="female" value="female"><label for="female">Female</label><br><br>
+			
+	    <label for="college"> College:&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</label><input type="text" name="college"><br><br>
+
+	    <label for="Domain">The project Domain:&emsp;&emsp;</label><input type="text" name="Domain"><br><br>
+
+	    <label for="Topic">The Title of the project:&emsp;</label><input type="text" name="Title"><br><br>
+
+	    <label for="Company">Name of the Institution:&emsp;</label><input type="text" name="Company"><br><br>
+
+	    <label for="year">The Academic year:&emsp;&emsp;</label>
+	    <select name="year">&emsp;
+	    	<option>2018-2019</option>
+	    	<option>2019-2020</option>
+	    	<option>2020-2021</option>
+	    </select><br><br>
+
+	    <label for="datejoined">Date of Joining:&emsp;&emsp;</label>
+	    <input type="date" name="datejoined"><br><br>
+
+	    <label for="dateended">Date of completion:&emsp;&emsp;</label>
+	    <input type="date" name="dateended"><br><br>
+
+	    <label for="status"> Status of the project:&emsp;</label>
+		<input type="radio" name="ongoin" value="Ongoing"><label for="male">Ongoing</label>
+		<input type="radio" name="complete" value="Completed"><label for="female">Completed</label><br><br>
+
+		<label for="offered Stipend"> Stipend Offered(in Rs.):&nbsp;</label>
+		<input type="number" name="offered Stipend"><br><br>
+
+		<label for="rating">How do you rate the overall experience?(between 0 to 10)&emsp;</label>
+        <input type="range" name="rating" min="0" max="10"><br><br>
+		<input type="submit" value="Submit"><br>
+	</form>
+</div>
+
+	<h4 id="center">---Thank you for your response---</h4>
+
+</body>
+</html>

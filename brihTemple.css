@@ -1,0 +1,33 @@
+#pic1{
+	background-image: url("C:/Users/Shakti/Downloads/brihTemple1.jpg");
+    height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#pic2{
+	background-image: url("C:/Users/Shakti/Downloads/brihTemple2.1.jpg");
+    height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#pic3{
+	background-image: url("C:/Users/Shakti/Downloads/brihTemple2.jpg");
+    height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#pic1, #pic2, #pic3{
+	font-size: 18px;
+	color: #fff;
+	text-indent: 35px;
+
+}
